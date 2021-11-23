@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(#45d88f, #70ec95);
+
+} 
+.wrapper{
+  overflow: hidden;
+  max-width: 390px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(16, 17, 16, 0.1);
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#button{
+   background-color: #23e73d; 
+   padding: 5px 30px;
+   margin-top: 10px;
+   text-align: center;
+   border: none;
+   color: #ffff;
+   letter-spacing: 1px;
+   font-weight: 600;
+   cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(20, 224, 13);
+    font-size:15px ;
+}
+.field{
+    text-align: center;
+    font-size: 10px;
+    padding: 1px;
+}
+.space{
+    padding: 10px;
+}
+.placeholder
+{
+  padding: 5px;
+}
+.show{
+    font-size: 10px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+}
+.pass-key:valid~.show{
+    display: block;
+}
+.pass{
+  text-align: left;
+  margin: 10px;
+  font-size: 12px;
+}
+.pass a{
+    color:black;
+    text-decoration: none;
+}
+.pass:hover a{
+    text-decoration: underline;
+}
+.links{
+    display:flex;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+}
+.facebook,.google{
+    width: 100%;
+    margin-left:10px ;
+    padding: 3px;
+}
+.facebook{
+    border: 2px solid #4367b2;
+}
+.google{
+    border: 2px solid #ca522e;
+}
+.facebook:hover{
+    background:rgb(77, 135, 223);
+}
+.google:hover{
+    background:rgb(223, 77, 77);
+}
+.links i{
+    padding: 3px
+}
+i span{
+    margin-left: 8px;
+    font-weight: 500;
+}
+.signup a{
+    color: darkblue;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+.login{
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
